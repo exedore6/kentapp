@@ -1,3 +1,13 @@
+CREATE TABLE user
+(
+user_id int not null, 
+name text not null, 
+email text not null, 
+profile_pic text not null, 
+teacher int not null, 
+admin int not null, 
+banned int not null
+);
 CREATE TABLE lost_and_found
 (
         item_id INTEGER primary key AUTOINCREMENT,
@@ -12,7 +22,6 @@ CREATE TABLE lost_and_found
         completed int not null,
         item_type text not null
 );
-
 CREATE TABLE activity
 (
         act_id INTEGER primary key AUTOINCREMENT,
@@ -28,9 +37,4 @@ CREATE TABLE activity
         space_used int,
         space_limit int
 );
-
-CREATE TABLE resource
-(
-        resource_id INTEGER primary key AUTOINCREMENT,
-        resource_type int not null
-);
+CREATE TABLE resource (resource_id INTEGER primary key AUTOINCREMENT);
