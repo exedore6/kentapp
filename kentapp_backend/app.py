@@ -117,7 +117,7 @@ lost_list = [
 ]
 found_list = [
     {'id':1, 'name':'book','location':'library','lost_or_found':False},
-    {'id':2, 'name':'pencil','location':'dickenson','lost_or_found':False},
+    {'id':2, 'name':'pencil','location':'science building','lost_or_found':False},
     {'id':3, 'name':'phone','location':'town','lost_or_found':False}
 ]
 
@@ -130,7 +130,7 @@ act_list = [
 
 #fake user list
 user_list = [
-    {'id':1, 'name':'Niki','gender':'F','email':'huj23'},
-    {'id':2, 'name':'Jiayi','gender':'F','email':'jiayi24'},
-    {'id':3, 'name':'NH','gender':'hidden','email':'niki.hu04'}
+    {'id':1, 'name':'Tony','gender':'M','email':'TonyGMercer@jourrapide.com'},
+    {'id':2, 'name':'Byron','gender':'M','email':'ByronMSeal@armyspy.com'},
+    {'id':3, 'name':'Virginia','gender':'hidden','email':'VirginiaMOsborne@teleworm.us'}
 ]
